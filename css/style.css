@@ -1,15 +1,14 @@
 *{
 	box-sizing: border-box; 
-	/* This makes the widths of elements more consistent
-		Full details here https://css-tricks.com/box-sizing/ */
 }
 
 body{
-	margin: 0px; /* Often browsers have a 5px margin by deafult*/
+	margin: 0px;
 	font-family: sofia-pro, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	font-size: 17px;
+	background-color: #F0F6F7;
 }
 
 section{
@@ -21,10 +20,16 @@ section{
 }
 
 header{
-	background-color: darkOrange;
 	color: white; /* more readable on an orange background */
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+img {
+	border-radius: 7%;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;	
 }
 
 #intro {
@@ -32,13 +37,37 @@ header{
 }
 
 #manhole_covers{
-	/*background-color: #FF6700;*/
-	background-image: linear-gradient(#FF6700, #FF9B71);
+	background-image: linear-gradient(#FF6A48, #FE9870);
+}
+
+#street_markings{
+	background-image: linear-gradient(#FE9870, #F29A8C);
+}
+
+#network_hardware{
+	background-image: linear-gradient(#F29A8C, #FE9870);
+}
+
+#cameras{
+	background-image: linear-gradient(#FE9870, #FF6A48);
 }
 
 #manholes {
 		background-color: #F4F9E9;
 }
+
+#markings {
+		background-color: #F4F9E9;
+}
+
+#hardware {
+		background-color: #F4F9E9;
+}
+
+#cam {
+		background-color: #F4F9E9;
+}
+
 
 nav{
 	width: 100%;
@@ -60,23 +89,25 @@ nav a, nav h3{
 }
 
 nav a {
-	color:#BFBDC1;
+	color: white;
 }
 
 nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+#logo {
+	font-size: 16px;
+	color: #BFBDC1;
+}
 
-
-/* Simple grid */
 .g-row{
 	width: 100%;
 	overflow: hidden;
 }
 
 .g-row img{
-	width: 100%; /*This makes all images in grids to be the size of their cell */
+	width: 80%; /*This makes all images in grids to be the size of their cell */
 }
 
 .g-50{
@@ -100,7 +131,7 @@ nav a:hover{
 }
 
 .padded{
-	padding: 20px; /* I add this to cells to add a little padding*/
+	padding: 20px; 
 }
 
 h1 {
