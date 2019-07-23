@@ -164,7 +164,7 @@ h3 {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     max-width: 100%;
     margin-left: 3%;
     margin-right: 3%;
@@ -205,9 +205,15 @@ h3 {
 
 .caption {
 	text-align: left;
-	max-width: 350px;
+	max-width: 280px;
 	padding-left: 1%;
 	padding-right: 1%;
 }
 
+.caption2 {
+	text-align: left;
+	max-width: 480px;
+	padding-left: 1%;
+	padding-right: 1%;
+}
 
