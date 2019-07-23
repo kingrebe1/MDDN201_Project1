@@ -8,12 +8,12 @@ body{
 	font-weight: 300;
 	font-style: normal;
 	font-size: 17px;
-	background-color: #F0F6F7;
+	background-color: #fff6f5;
 }
 
 section{
-	max-width: 1000px;
-	margin-left: auto;
+	/*max-width: 1000px;*/
+	margin-left: 9%;
 	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -31,13 +31,6 @@ img {
 	padding-top: 5%;
 	padding-bottom: 1%;	
 	/*height: 300px;*/
-}
-
-.mh {
-	margin-top: 20px;
-	padding-top: 5%;
-	padding-bottom: 1%;	
-	height: 300px;
 }
 
 .sm {
@@ -63,7 +56,18 @@ img {
 }
 
 #intro {
-	background-color: #4F6D7A;
+	margin-top: 15%;
+	margin-left: 0%;
+	text-align: center;
+	background-color: white;
+}
+
+#intro_h {
+	padding-top: 3%;
+}
+
+#intro_p {
+	padding-bottom: 3%;
 }
 
 #manhole_covers{
@@ -140,6 +144,9 @@ h3 {
 	font-style: normal;
 	font-size: 20px;
 }
+
+
+
 .container_1{
     display: flex;
     flex-direction: row;
@@ -192,9 +199,9 @@ h3 {
     padding-right: 3%;
 }
 
-/*.content {
-	margin-right: auto;
-}*/
+.content {
+	margin-left: 3%;
+}
 
 .caption {
 	text-align: left;
