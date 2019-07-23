@@ -20,16 +20,25 @@ section{
 }
 
 header{
-	color: white; /* more readable on an orange background */
+	color: white;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 img {
 	border-radius: 7%;
-	margin-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;	
+	margin-top: 20px;
+	padding-top: 2%;
+	padding-bottom: 1%;	
+	max-width: 80%;
+}
+
+.active {
+	font-family: sofia-pro, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	text-decoration: underline;
 }
 
 #intro {
@@ -146,4 +155,23 @@ h3 {
 	font-weight: 700px;
 	font-style: normal;
 	font-size: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    max-width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.content {
+	align-self: center;
+}
+
+.caption {
+	text-align: center;
+	max-width: 80%;
 }
